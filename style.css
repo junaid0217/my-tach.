@@ -1,0 +1,380 @@
+body {
+    width: 100%;
+    height: 0;
+
+}
+.main-container{
+    font-family: Oswald,sans-serif;
+}
+.top {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#up {
+    position: relative;
+    top: 20px;
+}
+.tach {
+    color: rgb(206, 37, 37);
+    align-self: center;
+    font-family:Oswald,sans-serif;
+    font-weight: 400px;    
+}
+.list {
+    display: flex;  
+    list-style: none;
+    font-family:Oswald,sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    gap: 10px;
+    cursor: pointer; 
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 700px) {
+    .list {
+        align-self: flex-end;
+    }
+}
+
+@media (min-width: 700px) {
+    .list {
+        font-size: large;
+    }
+}
+
+span {
+    color: red;
+}
+
+.products {
+    width: 300px;
+    height: 300px;
+}
+
+#Chicken {
+    width: 300px;
+    height: 300px;
+}
+#dairy {
+    width: 300px;
+    height: 300px; 
+}
+#medicine{
+    width: 300px;
+    height: 300px;
+}
+#grocery{
+    width: 300px;
+    height: 300px;
+}
+
+#stationery {
+    width: 300px;
+    height: 300px;
+}
+
+#fruits{
+    width: 300px;
+    height: 300px;
+}
+#vegi{
+    width: 300px;
+    height: 300px;
+}
+.timing{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.works {
+    margin-top: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+.left {
+    background-color: rgb(235, 17, 53);
+    width: 50%;
+    overflow: hidden;
+}
+
+.change {
+    color: white;
+}
+.leftpara {
+    text-align: right;
+    font-size:x-large;
+    margin-right: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#mobile {
+    text-align: center;
+}
+#tachbag {
+    text-align: center;
+}
+
+.step {
+      left: 600px;
+      color: black;  
+      height: 30px;
+      width: 40px;
+      border-radius: 10px;
+      display: inline-block;
+      background-color: white;
+      position: relative;    
+}
+.order {
+    display: flex;
+    gap: 5px;
+}
+.right {
+    background-color:  rgb(235, 17, 53);
+    width: 50%;
+    overflow: hidden;;
+}
+
+.firstmob {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rightpara {
+    text-align: left;
+    font-size:x-large;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.rider {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.second {
+    color:black;
+    text-align: start;
+    background-color: white;
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.memberships {
+    background-color: black;
+    
+}
+
+.redcolor {
+    color: red;
+}
+
+
+.checkout {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    
+}
+
+.deliverman {
+    height: 150px;
+    width: 150x;
+ 
+}
+
+.piclower {
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+h4 {
+   margin-left: 50px;
+   font-size: larger;
+}
+.mix {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.hyd {
+    background-color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 1200px;
+    align-items: center;
+}
+
+.map {
+    height: 60px;
+    width: 60px;
+}
+.storeloc {
+    background-color: rgb(223, 217, 217);
+    height: 400px;
+}
+
+
+.touch {
+    height: 60px;
+    width: 30px;   
+}
+
+.picof {
+    height: 30px;
+    width: 30px;
+    margin-top: 220px;
+}
+
+.our {
+    height: 270px;
+    width: 270px;
+}
+.range {
+    width: 50%;
+    align-content: center;
+    
+}
+.ek {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ek p {
+    font-size: larger;
+    text-align: center;
+    font-weight: 500;
+}
+
+.do p {
+    font-size: larger;
+    text-align: center; 
+    font-weight: 500;
+}
+
+.do {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.app {
+    margin-top: 180px;
+}
+.get {
+    font-family: oswold, sans-serif;
+    text-align: center;
+    font-size: 30px;    
+}
+
+.ready {
+    font-size: 70px;
+}
+
+.black {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+
+.black img{
+    position: relative;
+    height: 430px;
+    bottom: 150px;
+}
+
+.play {
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.playstore {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    
+}
+
+.bottom {
+    width: 100%;
+    position: relative;
+    top: 400px;
+}
+.heading {
+    position: relative;
+    top: 240px;
+    color: white;
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+.maindiv {
+    background-color: rgb(235, 17, 53);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 170px;
+    color: white;
+    height: 530px;
+}
+
+.pic {
+    margin-top: 80px;
+    
+}
+
+.text {
+    margin-top: 80px;
+}
+.icons {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    top: 110px;
+    gap: 5px;
+    left: 575px;
+}
+
+.end {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: 120px;
+    background-color: rgb(235, 17, 53);
+    height: 40px;
+}
+
+
+
